@@ -1,0 +1,152 @@
+.image2{
+    height: 60vh;
+    height: 90vh;
+    padding-top: 70px;
+}
+.jobs{
+    padding-top: 100px;
+    float: left;
+    color: blue;
+    font-weight: bold;
+    
+    
+}
+.one{
+    float: left;
+    font-weight: bold;
+}
+.left{
+    float: left;
+    padding-top: 60px;
+
+}
+.makenow {
+    float: left;
+    font-size: 18px;
+    padding-top: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    text-align: justify;
+}
+#driven{
+    padding-top: 25px;
+}
+#routes{
+    padding-bottom: 35px;
+}
+
+
+
+
+ /* .data{
+    padding-top: 20px;
+    
+}
+.real{
+    padding-top: 30px;
+}
+.personal{
+    padding-bottom: 20px;
+} */
+/* .trends{
+    padding-top: 20px;
+} */
+/* .reach{
+    padding-top: 10px;
+}
+.trends{
+    padding-bottom: 20px;
+}
+.stand{
+    padding-top: 20px;
+} */
+
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+    .left,
+    .image2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image2 {
+        max-width: 100%; /* Limit image width */
+        height: 90%; /* Maintain aspect ratio */
+         /* Adjust as needed */
+    }
+
+    .text-start {
+        text-align: center;
+    }
+
+  
+    .one{
+        padding-left: 17px;
+    }
+    .makenow {
+        font-size: 15px !important;
+         justify-content: center;
+        align-items: center; 
+        
+        padding-top: 10px;
+        text-align: justify !important;
+    }
+    .jobs{
+        padding-left: 17px;
+        padding-top: 21px;
+    }
+    
+  .data{
+    padding-top: 20px;
+    
+}
+.real{
+    padding-top: 30px;
+}
+.personal{
+    padding-bottom: 20px;
+} 
+.trends{
+    padding-top: 20px;
+} 
+.reach{
+    padding-top: 10px;
+}
+.trends{
+    padding-bottom: 20px;
+}
+.stand{
+    padding-top: 20px;
+}  
+#design{
+    padding-left: 14px;
+}
+
+}
+
+@media (min-width:430px) and (max-width:835px) {
+    .makenow{
+        font-size: 20px !important;
+    }
+    .one{
+        padding-right: 10px !important;
+    }
+    
+}
+@media (min-width:835px) and (max-width:1280px){
+    .jobs{
+        padding-bottom: 2px;
+        padding-left: 2px;
+    }
+    .left{
+        padding-right: 13px;
+    }
+    .one{
+        padding-right: 15px;
+    }
+    .image2{
+        margin-top: 25px;
+    }
+}

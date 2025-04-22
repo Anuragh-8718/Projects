@@ -1,0 +1,203 @@
+.image1{
+    width: 40vw;
+    height: 60vh;
+    padding-top: 40px;
+    
+}
+.header{
+    padding-left: 40px;
+    padding-top: 40px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 37px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.para1 {
+    padding-left: 40px;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button2{
+    color:black;
+    background-color:white;
+    border-radius: 5px;
+    border: solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+     padding-left: 19px;
+     padding-right: 19px;
+    margin-right: 21rem;
+    font-size: 18px;
+
+}
+.button2:hover{
+    color:grey;
+}
+.logo1{
+    width: 7vw;
+    height: 6vh;
+    /* padding-left: 20px; */
+    float: left;
+    margin-right: 5px;
+}
+
+.header1{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.logo3{
+    width: 5vw;
+    height: 4vh;
+    padding-left: 20px; 
+    float: left;
+    padding: 7px;
+    padding-bottom: 3px;
+   
+    
+}
+.logo4{
+    width: 5vw;
+    height: 6vh;
+    /* padding-left: 20px; */
+    float: left;
+    
+}
+.logo5{
+    width: 5vw;
+    height: 6vh;
+     padding-left: 20px; 
+    float: left;
+    margin-right: 7px;
+}
+.header2{
+    padding-top: 10rem;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+@media (max-width:430px){
+    .image1{
+        width:90vw;
+        height: 70vh;
+    }
+    .para1{
+        text-align: left;
+    }
+    .header{
+        padding-left: 35px;
+        font-size: 30px;
+    }
+    h6{
+        font-size: 17px !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 20px;
+        
+    }
+    .button2{
+     margin-left: 36px;
+     font-size: 14px;
+     padding: 10px 20px;
+     white-space: nowrap;
+  
+    }
+     h3{
+       padding-left: 25px;
+    }
+    .logo1{
+        width: 20vw;
+        margin-right: 10px;
+    }
+    .logo3{
+        width: 20vw;
+        margin-left: 137px;
+    }
+    .logo4{
+        width: 17vw;
+    }
+    .logo5{
+        width: 15vw;
+        height: 6vh;
+    }
+    .header2{
+        padding-top: 20px !important;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:430px) and (max-width:835px){
+    .image1{
+        width: 90vw;
+        height: 70vh;
+    }
+    .header{
+        text-align: center;
+    }
+    .para1{
+        text-align: justify;
+        font-size: 24px;
+        
+    }
+    .button2{
+        margin-right: 1rem;
+        font-size: 20px;
+    }
+    .header1{
+        margin-left: 6rem;
+        font-size: 20px;
+    }
+    .logo1{
+        width: 20vw;
+        margin-right: 50px !important;
+    }
+    .logo3{
+        width: 20vw;
+        margin-left: 223px;
+    }
+    .logo4{
+        width: 10vw;
+        margin-left: 50px;
+    }
+    .logo5{
+        width: 10vw;
+        margin-left: 40px;
+    }
+    .header2{
+        padding-top: 20px !important;
+    }
+}
+
+@media (min-width:835px) and (max-width:1280px) {
+    .image1{
+        width: 86vw;
+        height: 85vh;
+        margin-right: 70px;
+        padding-left: 5px;
+    }
+    .header{
+        padding-left: 20px;
+        font-size: 55px;
+    }
+    .para1{
+        padding-left: 25px;
+        text-align: left !important;
+    }
+    .button2{
+        margin-left: 20rem;
+    }
+    .header1{
+        margin-left: 10px;
+    }
+    .header2{
+        padding-top: 20px;
+    }
+    
+}

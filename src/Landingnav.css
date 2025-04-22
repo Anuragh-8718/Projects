@@ -1,0 +1,162 @@
+.navlogo{
+    width: 14vw;
+    height: 20vh;
+    
+}
+.me-auto{
+    margin-left: 40rem;
+}
+.homebutton{
+    color: white;
+    background-color:#780000;
+    border-radius: 3px;
+}
+
+
+
+.logos{
+    padding-right: 14px; 
+    font-size: 20px !important;
+    
+}
+.logotext{
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:4px;
+    /* margin:35px; */
+}
+.logotext::after{
+    content:"ACADEMY";
+    display:block;
+    font-size:20px;
+    text-align:right;
+    letter-spacing:5px;
+    color:#780000 !important;
+}
+ /* .line h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    text-align: center;
+    
+    font-weight: bold;
+    
+} */
+/* .headings{
+    padding-right: 20rem;
+    
+} */
+.navheadings{
+     padding-right: 2rem; 
+    
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.button1{
+    /* padding: 10px; */
+    color:white !important;
+    background-color:#780000 !important;
+    border-radius: 5px !important;
+    border: solid #780000 !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+    margin-left: 56rem;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    
+    
+}
+
+
+.button1:hover{
+    color:gray;
+}
+.oracle{
+    padding-right: 20px;
+    color: lightskyblue;
+    margin-left: 30px;
+    
+}
+
+
+@media (max-width:430px) {
+    .navlogo{
+        width:30vw;
+        height: 10vh;
+        padding-left: 2rem;
+    }
+    
+    .navheadings{
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 2px;
+    }
+    
+    .button1{
+        margin-left: 2px;
+    }
+    .oracle{
+        padding-right: 27px !important;
+    }
+}
+
+@media (min-width:430px) and (max-width:835px){
+    .navlogo{
+        width: 20vw;
+    }
+    .navheadings{
+        
+        padding-left: 6rem;
+    }
+    .oracle{
+        padding-left: 2rem !important;
+    }
+    .button1{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
+/* @media (min-width:835px) and (max-width:1280px) {
+    .navheadings{
+        padding-right: 80px;
+    }
+    .navlogo{
+        padding-right: 20px;
+    }
+    .button1{
+        margin: 0 !important;
+    }
+    .oracle{
+        margin-left: 0 !important;
+    }
+} */
+@media (min-width:835px) and (max-width:1280px){
+.navlogo {
+    height: 10vh;
+    width: 10vw;
+    /* margin-right: 15px; */
+  }
+
+  .oracle {
+    
+    font-size: 16px;
+  }
+
+  .button1 {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-left: 35rem;
+    
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+}

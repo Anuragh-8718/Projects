@@ -1,0 +1,100 @@
+/* .testimonial-card .card-up {
+    height: 100px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  .cards2{
+    display: flex;
+    
+  }
+  .cards1{
+    display: flex;
+    margin-top: 15px;
+    
+  } */
+
+  .justify-text {
+    text-align: justify;
+}
+
+  .ignite{
+    padding-top: 26px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .cards2 {
+    margin-bottom: 20px;
+  }
+  
+  .top-cards {
+    margin-bottom: 20px;
+  }
+  
+  .bottom-cards {
+    margin-top: 20px;
+  }
+  .start{
+    padding-top: 70px;
+   
+    padding-bottom: 70px;
+    max-width: 100%;
+}
+.button3{
+    /* background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; */
+    color:black !important;
+    background-color:white !important;
+    border-radius: 5px !important;
+    border: solid black !important;
+    padding-bottom: 15px ;
+    padding-top: 15px;
+     padding-left: 30px;
+     padding-right: 30px;
+    
+    font-size: 18px;
+    
+}
+ .button4{
+  color:black !important;
+    background-color:gainsboro !important;
+    border-radius: 5px !important;
+    border: solid black !important;
+     padding-bottom: 15px;
+    padding-top: 15px;
+     padding-left: 30px;
+     padding-right: 30px; 
+    font-size: 10px;
+} 
+.button3:hover{
+  color: gray !important;
+}
+.button4:hover{
+  color: white !important;
+}
+
+@media (max-width:430px) {
+    .start{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+  
+  

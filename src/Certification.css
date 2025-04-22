@@ -1,0 +1,38 @@
+.image3{
+    width: 20vw;
+    height: 30vh;
+}
+.check{
+    background-color: whitesmoke;
+    max-width: 100%;
+    height: auto;
+    padding: 70px;
+
+}
+.certify{
+    text-align: justify;
+}
+
+@media (max-width:430px) {
+    .image3{
+        width: 50vw;
+    }
+    .certify{
+        padding-top: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (min-width:430px) and (max-width:835px) {
+    .image3{
+        width: 38vw;
+        padding-right: 10px;
+    }
+    .certify{
+        text-align: left;
+        padding-left: 20px;
+    
+    }
+    
+}

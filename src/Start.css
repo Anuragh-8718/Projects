@@ -1,0 +1,22 @@
+.start{
+    padding-top: 70px;
+    background-color:whitesmoke;
+    padding-bottom: 70px;
+    max-width: 100%;
+}
+.button3{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+@media (max-width:430px) {
+    .start{
+        padding-top: 10px;
+    }
+}
